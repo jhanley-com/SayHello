@@ -1,0 +1,25 @@
+{
+    "name": "jhanley/sayhello",
+    "description": "This is a test package to learn how to publish to Packagist",
+    "keywords": [
+        "Packagist"
+    ],
+    "homepage": "https://jhanley.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John J. Hanley",
+            "email": "support@jhanley.com",
+            "homepage": "https://jhanley.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jhanley\\SayHello\\": "src"
+        }
+    }
+}
